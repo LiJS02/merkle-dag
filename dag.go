@@ -17,7 +17,6 @@ type Object struct {
 }
 
 func Add(store KVStore, node Node, h hash.Hash) []byte {
-
 	// TODO Write the shard to KVStore and return Merkle Root
 
 	if node.Type() == FILE {
